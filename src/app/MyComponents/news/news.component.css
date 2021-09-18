@@ -1,0 +1,98 @@
+.ten
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.news
+{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.063);
+    position: relative;
+    display: grid;
+    grid-column: 3;
+}
+.bar
+{
+    height: 3px;
+    width: 10px;
+    display: none;
+    margin: 0 auto;
+}
+.news:hover .bar
+{
+    animation: bar 0.5s linear;
+    display: block;
+}
+@keyframes bar
+{
+    0%{
+        width: 0%;
+        background-color: rgb(151, 45, 186);
+    }
+    100%{
+        width: 100%;
+        background-color: rgb(0, 110, 255);
+    }
+}
+#title
+{
+    color: white;
+}
+#row
+{
+    padding: 10px;
+}
+#footer
+{
+    background-color: rgba(0, 0, 0, 0.433);
+    bottom: 0;
+    height: 122px;
+    width: 100%;
+    display: grid;
+    position: relative;
+    justify-content: center;
+}
+#footer h4
+{
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+#footer p
+{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+#btn
+{
+    text-decoration: none;
+    color: white;
+}
+.bar2
+{
+    height: 3px;
+    width: 10px;
+    display: none;
+    margin: 0 auto;
+}
+#row:hover .bar2
+{
+    animation: bar2 0.5s linear;
+    display: block;
+}
+@keyframes bar2
+{
+    0%{
+        width: 0%;
+        background-color: rgb(247, 247, 247);
+    }
+    100%{
+        width: 100%;
+        background-color: rgb(250, 250, 250);
+    }
+}

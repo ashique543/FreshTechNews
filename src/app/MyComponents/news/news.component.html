@@ -1,0 +1,26 @@
+<div class="ten">
+    <h2>Top Headlines</h2>
+  </div>
+  <div class="news">
+    <div class="bar"></div>
+    <div *ngFor="let nd of topHeadlineData" class="container-fluid" style="max-width: 1000px;">
+        <div class="row" id="row">
+          <div class="col-md-4">
+            <img src="{{nd.urlToImage}}" class="img-fluid rounded-start">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text" id="title">{{nd.title}}</p>
+              <p class="card-text"><small>{{nd.publishedAt}}</small></p>
+              <button type="button" class="btn btn-dark"><a href="{{nd.url}}" id="btn">Read</a></button>
+            </div>
+          </div>
+          <div class="bar2"></div>
+        </div>
+      </div>
+  </div>
+  <div class="container-fluid" id="footer">
+    <h4>Read Technology News for Free ©2021 Fresh Tech News</h4>
+    <p id="hi">Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated
+      third parties.</p>
+  </div>

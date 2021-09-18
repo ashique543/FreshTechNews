@@ -1,0 +1,16 @@
+nav
+{
+    background: linear-gradient(to left,rgb(0, 110, 255),rgb(151, 45, 186));
+}
+nav a
+{
+    color: white;
+}
+nav ul li a
+{
+    color: white;
+}
+#list
+{
+    color: black;
+}
